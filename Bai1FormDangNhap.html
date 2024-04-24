@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>FORM ĐĂNG NHẬP</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='Styles/Bai1FormDangNhap.css'>
+    <script src='JavaScript/Bai1FormDangNhap.js'></script>
+    <script src="https://kit.fontawesome.com/3f53b3fc70.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <input type="text" placeholder="Tên đăng nhập" id="username" onkeyup="checkUser()"><i class="icon1 fa-solid fa-user"></i>
+            <input type="password" placeholder="Mật khẩu" id="pass" onkeyup="checkPass()"><i onclick="OnOffPass()" id="icon2" class="icon2 fa-solid fa-eye"></i>
+        </div>
+        <p id="message"></p>
+        <div class="btn">
+            <button type="button" id="btn"><a href="#" onclick="check()">Đăng nhập</a></button>
+            <button type="button" id="btn"><a href="/HTML/Bai2FormDangKy.html">Đăng Ký</a></button>
+        </div>
+    </div>
+</body>
+</html>
